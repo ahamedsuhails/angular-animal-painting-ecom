@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar'; 
 import {MatButtonModule} from '@angular/material/button'; 
+import { CartModule } from './cart/cart.module';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import {MatButtonModule} from '@angular/material/button';
     RouterModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    CartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
